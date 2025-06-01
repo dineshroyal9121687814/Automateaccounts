@@ -1,5 +1,3 @@
-Below is the revised content formatted as a GitHub-compatible `README.md` file for the **Receipt Processor** Django application. This version incorporates the simplified code structure from the previous response, aligns with the provided project details, and streamlines the instructions for clarity and brevity. You can copy and paste this directly into a `README.md` file in your GitHub repository.
-
 ```markdown
 # Receipt Processor
 
@@ -15,30 +13,18 @@ A Django-based application for processing receipt PDF files, extracting key deta
 - `requirements.txt`: Python dependencies.
 - `venv/`: Virtual environment directory.
 
-## Prerequisites
-
-- **Python 3.8+**: Verify with `python3 --version`.
-- **Tesseract OCR**: Required for PDF text extraction.
-  - **Ubuntu**: `sudo apt-get install tesseract-ocr libtesseract-dev`
-  - **Windows**: Install [Tesseract](https://github.com/UB-Mannheim/tesseract/wiki) and add to PATH.
-  - **macOS**: `brew install tesseract`
-- **Poppler**: Required for converting PDFs to images.
-  - **Ubuntu**: `sudo apt-get install poppler-utils`
-  - **Windows**: Install [Poppler](https://github.com/oschwartz10612/poppler-windows) and add to PATH.
-  - **macOS**: `brew install poppler`
-
 ## Setup Instructions
 
 1. **Clone the Repository or Navigate to Project Directory**
    ```bash
-   cd ~/ProjectA/automateAccounts/receipt_processor
+   cd receipt_processor
    ```
 
 2. **Set Up Virtual Environment**
    Create and activate a virtual environment:
    ```bash
    python3 -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   source venv/bin/activate 
    ```
 
 3. **Install Dependencies**
