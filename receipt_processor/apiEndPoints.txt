@@ -1,0 +1,21 @@
+API Endpoints
+
+1. Upload Receipt
+curl -X POST http://127.0.0.1:8000/upload/ \
+  -F "file=@receipt.pdf"
+
+2. Validate Receipt
+curl -X POST http://127.0.0.1:8000/validate/ \
+  -H "Content-Type: application/json" \
+  -d '{"file_id": 1}'
+
+3. Process Receipt
+curl -X POST http://127.0.0.1:8000/process/ \
+  -H "Content-Type: application/json" \
+  -d '{"file_id": 1}'
+
+4. List All Receipts
+curl http://127.0.0.1:8000/receipts/
+
+5. Get Specific Receipt
+curl http://127.0.0.1:8000/receipts/1/
