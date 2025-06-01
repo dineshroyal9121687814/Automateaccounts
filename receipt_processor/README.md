@@ -12,9 +12,9 @@ A Django-based application for processing receipt PDF files, extracting key deta
 - `db.sqlite3`: SQLite database file.
 - `requirements.txt`: Python dependencies.
 - `venv/`: Virtual environment directory.
+   ```
 
 ## Setup Instructions
-
 1. **Clone the Repository or Navigate to Project Directory**
    ```bash
    cd receipt_processor
