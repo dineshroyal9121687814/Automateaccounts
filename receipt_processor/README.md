@@ -1,5 +1,5 @@
-markdown
-```
+```markdown
+
 # Receipt Processor
 
 A Django-based application for processing receipt PDF files, extracting key details (merchant name, total amount, purchase date), and managing them via a REST API and web dashboard. The application uses SQLite as the database and supports uploading, validating, and processing PDF receipts.
